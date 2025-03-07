@@ -1,0 +1,6 @@
+print("WELCOME TO THE MAD-LIB!")
+print("please answer the following questions")
+print("")
+
+a1 = input("enter an adjective")
+n1 = input("enter a nationality(can be fake) e.g robot")
