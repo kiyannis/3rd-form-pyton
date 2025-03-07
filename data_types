@@ -1,0 +1,9 @@
+#data types
+#C.R.I.B.S
+#here are variables that hold...
+#each type of data type
+Character = "a"
+RealFloat = 22.25
+Integer = 13
+Boolean = True
+String = "HeLL0!!!!"
