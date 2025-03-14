@@ -2,5 +2,23 @@ print("WELCOME TO THE MAD-LIB!")
 print("please answer the following questions")
 print("")
 
-a1 = input("enter an adjective")
-n1 = input("enter a nationality(can be fake) e.g robot")
+age = input("enter your age (can be fake) - ")
+n1 = input("enter a name - ")
+a1 = input("enter an adjective - ")
+na1 = input("enter a nationality(has to end in 'n') - ")
+f1 = input("enter a food - ")
+i1 = input("enter an ingredient - ")
+i2 = input("enter another ingredient - ")
+a11 = input("enter an adjective - ")
+aj1 = input("enter another adjective - ")
+c1 = input("enter a random celebrity - ")
+r1 = input("enter a resturant - ")
+c2 = input("enter another celebrity - ")
+print("")
+
+print("once apon a time, there was a", age, "year old", na1, "called", n1, ", and he was a very", a1, na1,
+      ". his faviorite food was", f1, "and he loved, ", i1, "and", i2, "on his", f1, ", then when he tasted it, he realised that it was,"
+      , a11, "and" ,aj1 ," so he never had it agian. furthermore," ,c1 , "," ,n1,"'s best friend asked him to go to" ,r1 , "so",n1 ,
+      "said 'sure thing!'. when they were at", r1, "they saw", c2, "and got a photo!")
+      
+
