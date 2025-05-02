@@ -1,0 +1,16 @@
+#For loop challenge6 (GCSECS.COM)
+
+#The code below is mixed up and has an error
+#It should display the 7 colours of the rainbow...
+#...in order and count them too.
+#The colours are in a 1D array (or list)
+#HINT: You may have to fix indentation too
+
+rainbow =["red","orange","yellow","green","blue","indigo", "violet"]
+
+number = 0 
+
+
+for i in rainbow:
+  number = number + 1
+  print ("Colour",number,"is", i)
