@@ -1,0 +1,10 @@
+#For loop challenge4(GCSECS.COM)
+
+#The code below is mixed up and has 1 error
+#It should ask the user to enter a times table
+#It should then display the times table
+#Also, you may need to fix indentation
+number = int(input("Enter a times table: "))
+for i in range(1,13):
+   print(i ,"x", number, "=", i*number)
+print("showing the",number,"times table")
