@@ -1,0 +1,23 @@
+#While loop challenge6 (gcsecs.com)
+
+#There is a line of code missing below
+#The point of al the code is to generate a random number, then..
+#asks the user to try and guess it
+#Can you fix it?
+#Look through the code then enter a fix below
+
+
+import random
+
+number=random.randint(1,1000)
+userGuess=int(input("Guess the number between 1-1000"))
+
+# Add one line of code here to allow the user to
+# Hint: You might need to indent some code
+while userGuess!=number:
+  if number < userGuess:
+    userGuess=int(input("Guess to High, try again: "))
+  else:
+    userGuess=int(input("Guess to Low, try again: "))
+
+print("Yay! You got it correct!!!")
